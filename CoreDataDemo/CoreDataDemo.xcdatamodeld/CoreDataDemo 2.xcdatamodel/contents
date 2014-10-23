@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="ChildrenEntity" parentEntity="MyFirstEntity" syncable="YES">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
@@ -10,12 +10,11 @@
     </entity>
     <entity name="MySecondEntity" representedClassName="MySecondEntity" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="oneAttribute" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="myFirstEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyFirstEntity" inverseName="mySecondEntity" inverseEntity="MyFirstEntity" syncable="YES"/>
     </entity>
     <elements>
         <element name="ChildrenEntity" positionX="-54" positionY="-135" width="128" height="58"/>
-        <element name="MyFirstEntity" positionX="-234" positionY="-10" width="128" height="88"/>
-        <element name="MySecondEntity" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="MyFirstEntity" positionX="-234" positionY="-10" width="128" height="28"/>
+        <element name="MySecondEntity" positionX="-54" positionY="9" width="128" height="73"/>
     </elements>
 </model>
